@@ -3,11 +3,13 @@ body{
 }
 
 #fejlec{
-    text-align: center;
     background-color: rgba(211, 211, 211, 0.3);
     width: 280;
     height: 50px;
     border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #doboz{
